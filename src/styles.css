@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing: border-box; 
+  /* width: auto; */
+}
+body {
+  margin: 0;
+}
+nav-container {
+  background-color: aqua;
+  box-sizing: border-box;
+}
+#navbar {
+  background-color: aqua;
+}
+
+/* temp */
+
+.navbar-top {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar-top a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-top a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar-top a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.navbar-top .icon {
+  display: none;
+}

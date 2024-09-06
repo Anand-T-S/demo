@@ -1,0 +1,17 @@
+.registerstud-formm{
+    border:2px solid black ;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+
+}
+.registerstud-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    width: 300px;
+    border-radius: 3px;
+    /* border:none; */
+    height: 25px;
+}

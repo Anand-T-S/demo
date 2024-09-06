@@ -1,0 +1,27 @@
+<!-- <ul *ngFor="let item of studArry" (click)="goToStudView(item.id)">
+    <li>First Name: {{item.firstName}}</li>
+    <li>Last Name: {{item.lastName}}</li>
+    <li>{{item.id}}</li>
+    <li><button>view</button></li>
+</ul> -->
+<!-- <li>{{item.dateOfBirth}}</li>
+    <li>{{item.address}}</li> -->
+
+<div class="container">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of studArry" (click)="goToStudView(item.id)">
+                <td>{{item.id}}</td>
+                <td> {{item.firstName}}&nbsp;{{item.lastName}}</td>
+                <td><input type="submit" value="view"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

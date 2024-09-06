@@ -1,0 +1,22 @@
+<p>stud-view works!</p>
+<!-- <p>id: {{id}}</p>
+
+<ul *ngIf="stud">
+    <li>{{stud.id}}</li>
+    <li>{{stud.firstName}}</li>
+    <li>{{stud.lastName}}</li>
+    <li>{{stud.address}}</li>
+</ul> -->
+
+<div class="card" *ngIf="stud" id="printSection">
+    <input type="file" name="" id="" (change)="onFileChange($event)" *ngIf="!imageSrc">
+    <div class="img-div">
+        <img [src]="imageSrc" alt="Upload Image" id="profile-pic">
+    </div>
+    <div>
+        <h4>Name :{{stud.firstName}} &nbsp; {{stud.lastName}}</h4>
+        <p>Address :{{stud.address}}</p>
+        <!-- <input type="submit" name="" id="" value="save" (click)="saveProfile()"> -->
+        <input type="submit" name="" id="" value="preview" (click)="preview()">
+    </div>
+</div>

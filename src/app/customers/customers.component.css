@@ -1,0 +1,15 @@
+.section-1 {
+  width: 500px;
+  height: 500px;
+  background-color: aquamarine;
+  text-align: left;
+}
+
+@media (min-width: 425px) {
+  .section-1 {
+    background-color: red;
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+  }
+}
